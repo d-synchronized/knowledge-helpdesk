@@ -22,8 +22,8 @@ public final class HelpDeskUserGroupCallback extends BPMUserGroupCallback {
     private static final Properties USERS_GROUPS_PROPERTIES = new Properties();
     static {
         USERS_GROUPS_PROPERTIES.setProperty("Administrator", "users,developers");
-        USERS_GROUPS_PROPERTIES.setProperty("Dishant", "users");
-        USERS_GROUPS_PROPERTIES.setProperty("Dheeraj", "developers");
+        USERS_GROUPS_PROPERTIES.setProperty("Dheeraj", "users");
+        USERS_GROUPS_PROPERTIES.setProperty("Dishant", "developers");
     }
 
     public HelpDeskUserGroupCallback() {
